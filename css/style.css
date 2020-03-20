@@ -1,18 +1,18 @@
 h1 {
   font-size: 28px;
   text-align: center;
-  color: white;
-  margin-bottom: 15px;
-  padding: 20px;
+  color: black;
+  padding: 35px;
+  font-family: verdana;
 }
 
 header {
-  background-color: #333333;
+  background-color: #d21034;
 }
 
 
 body {
-  font-family: 'Georgia,"Times New Roman",Times,serif;'
+  font-family: 'Georgia,"Times New Roman",Times,serif';
   margin: 0;
   padding: 0;
   background-color: #efeee7;
@@ -20,12 +20,20 @@ body {
 }
 
 .name {
-
+  font-weight: bold;
 }
 
 .container {
   width: 1024px;
   margin: 0 auto;
+}
+
+.bio-description {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contact-heading {
+  padding-left: 20px;
 }
 
 #bio-image {
@@ -37,6 +45,7 @@ body {
 
 #contact-info {
   width: 30%;
+  font-size: 18px;
   float: right;
 }
 
@@ -47,6 +56,7 @@ body {
 
 h2 {
   font-size: 24px;
+  font-family: verdana;
 }
 
 img {
@@ -56,12 +66,14 @@ img {
 
 p {
   font-size: 18px;
-font-weight: bold;
+font-weight: normal;
+color: black;
 }
 
 ul {
   padding: 20px;
   margin: 20px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 a {
